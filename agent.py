@@ -85,7 +85,7 @@ def complete_task(task_id: str) -> str:
 
 @mcp.tool()
 def add_note(title: str, content: str) -> str:
-    """Saves a detailed note for Dr. Abhishek."""
+    """Saves a detailed note for Rudra Rethaliya."""
     try:
         key = db.key('Note')
         note = datastore.Entity(key=key)
